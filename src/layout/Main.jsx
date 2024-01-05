@@ -6,7 +6,7 @@ import Navbar from '../pages/shared/navbar/Navbar'
 function Main() {
 
     return (
-        <div>
+        <div className='max-w-7xl'>
             <Navbar />
             <Outlet />
             <Footer />
